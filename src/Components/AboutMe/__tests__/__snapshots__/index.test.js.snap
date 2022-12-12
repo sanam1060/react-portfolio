@@ -1,0 +1,28 @@
+exports[`About Me component matches snapshot 1`] = `
+<DocumentFragment>
+  <section class="container d-flex flex-column align-items-center">
+    <img alt="Sanam Ganjian" class="hero-img my-3" data-testid="profilePhoto" src="profile-photo.jpg"/>
+    <p
+      class="fs-1 fw-semibold mb-0"
+      data-testid="profileUserName"
+    >
+      Sanam Ganjian
+    </p>
+    <h6
+      class="fw-semibold"
+      data-testid="profileUserTitle"
+    >
+      Recently Graduated Stack Web Developer
+    </h6>
+    <p data-testid="profileUserDescription">
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
+        veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+        commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
+        velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint
+        occaecat cupidatat non proident, sunt in culpa qui officia deserunt
+        mollit anim id est laborum.
+    </p>
+  </section>
+</DocumentFragment>
+`;

@@ -1,6 +1,7 @@
 import "./App.css";
 import Nav from "./Components/Nav";
 import AboutMe from "./Components/AboutMe";
+import Portfolio from "./Components/Portfolio";
 import { useState } from "react";
 
 function App() {
@@ -20,11 +21,14 @@ function App() {
     const [currentNavLink, setCurrentNavLink] = useState(navLinks[0]);
   return (
     <div>
-      <Nav navLinks={navLinks} currentNavLink={currentNavLink} setCurrentNavLink={setCurrentNavLink}></Nav>
+      <Nav
+        navLinks={navLinks}
+        currentNavLink={currentNavLink}
+        setCurrentNavLink={setCurrentNavLink}
+      ></Nav>
       <main>
-        {
-          currentNavLink.name === 'About Me' && <AboutMe/>
-        }
+        {currentNavLink.name === "About Me" && <AboutMe />}
+        {currentNavLink.name === "Portfolio" && <Portfolio />}
       </main>
     </div>
   );
