@@ -3,12 +3,19 @@ import profileImage from "../../assets/images/profile-photo.jpg";
 function AboutMe() {
   return (
     <section className="container d-flex flex-column align-items-center">
-      <img className="hero-img my-3" src={profileImage} alt="Sanam Ganjian" />
-      <p className="fs-1 fw-semibold mb-0">Sanam Ganjian</p>
-      <h6 className="fw-semibold">
+      <img
+        data-testid="profilePhoto"
+        className="hero-img my-3"
+        src={profileImage}
+        alt="Sanam Ganjian"
+      />
+      <p data-testid="profilePhoto" className="fs-1 fw-semibold mb-0">
+        Sanam Ganjian
+      </p>
+      <h6 data-testid="profileUserTitle" className="fw-semibold">
         Recently Graduated Full Stack Web Developer
       </h6>
-      <p>
+      <p data-testid="profileUserDescription">
         Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
         tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
         veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
