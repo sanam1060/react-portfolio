@@ -3,6 +3,7 @@ import Nav from "./Components/Nav";
 import { useState } from "react";
 
 function App() {
+    // Navigation links
     const [navLinks] = useState([
       {
         name: "About Me",
@@ -14,6 +15,7 @@ function App() {
         name: "Contact",
       },
     ]);
+    // Default
     const [currentNavLink, setCurrentNavLink] = useState(navLinks[0]);
   return (
     <div>
