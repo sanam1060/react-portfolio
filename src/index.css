@@ -2,3 +2,9 @@
 li span:hover {
   cursor: pointer;
 }
+
+.hero-img {
+  object-fit: cover;
+  width: 250px;
+  height: 250px;
+}
